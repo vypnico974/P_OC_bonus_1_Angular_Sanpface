@@ -17,8 +17,9 @@ import {  ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 //import { httpInterceptorProviders } from './core/interceptors';
 import { CoreModule } from './core/core.module';
-import { FaceSnapsModule } from './face-snaps/face-snaps.module';
+//import { FaceSnapsModule } from './face-snaps/face-snaps.module';
 import { LandingPageModule } from './landing-page/landing-page.module';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -39,8 +40,9 @@ import { LandingPageModule } from './landing-page/landing-page.module';
     ReactiveFormsModule,
     HttpClientModule,
     CoreModule,
-    FaceSnapsModule,
-    LandingPageModule
+ ////   FaceSnapsModule,
+    LandingPageModule,
+    AuthModule
 
   ],
   // providers: [
